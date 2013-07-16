@@ -1,4 +1,4 @@
-Website-Starter
+Website Starter Survival Kit
 ===============
 
 Website Starter is a simple PHP Framework build to create new Website faster.
