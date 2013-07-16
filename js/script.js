@@ -1,5 +1,5 @@
 /*
- * @author David Boissonnault
+ * @author Martin Bussières
  * @copyright Martin Bussières
  */
 
