@@ -32,7 +32,6 @@
 		<link type="text/css" rel="stylesheet" href="css/reset.css" media="all">
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
 		<!-- js -->
-		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-		<!-- <script type="text/javascript" src="js/svgeezy1.0.js"></script> -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3-min.js"></script>
+		<script type="text/javascript" src="js/script-min.js"></script>
 	</head>
