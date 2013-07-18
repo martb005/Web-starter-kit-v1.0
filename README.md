@@ -30,5 +30,5 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 ```
 
 ## Sprite grid
-Sprite grid handle images faster.
+Sprite grid handling images faster.
 
