@@ -29,3 +29,6 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 <meta name="description" content="<?=$description?>" />
 ```
 
+## Sprite grid
+Sprite grid handle images faster.
+
