@@ -32,3 +32,4 @@
 		<link type="text/css" rel="stylesheet" href="css/reset.css" media="all">
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
 	</head>
+  <body>
