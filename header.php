@@ -20,7 +20,7 @@
 
 ==============================
 -->
-<? include('inc/meta.php'); ?>
+<? include('meta.php'); ?>
 <html lang="fr">
 	<head>
 		<title><?=$title?></title>
@@ -29,7 +29,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Martin bussieres">
 		<!-- css -->
-		<link type="text/css" rel="stylesheet" href="css/reset.css" media="all">
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
 	</head>
   <body>
