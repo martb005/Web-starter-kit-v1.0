@@ -12,7 +12,7 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 - SVG to PNG fallback for old browsers (lte IE 9)
 - jQuery
 - HTML5 shiv for IE
-— Simple contact form
+- Simple contact form
 
 ## LESS
 [LESS](http://lesscss.org/) extends CSS with dynamic behavior such as variables, mixins, operations and functions. A LESS compiler (server-side) or client-side) is needed such as [less.app](http://incident57.com/less/) (mac), [javascript](http://lesscss.org/), etc.
