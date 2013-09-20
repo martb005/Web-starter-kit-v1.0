@@ -12,4 +12,5 @@
 			<input type="submit" class="btn"  value="Envoyer" id="send">
 		</fieldset>
 	</form>
+	<? echo $this->baseUrl(); ?>
 <? include('footer.php'); ?>
