@@ -6,9 +6,9 @@
 	<!-- Contact form  example -->
 	<form action="#" method="post" id="form-contact">
 		<fieldset>
-			<input type="text" required="required" id="name" name="name" placeholder="Nom">
-			<input type="email" required="required" id="email" name="email" placeholder="Courriel">
-			<textarea name="" id="" cols="30" rows="10" required="required" id="message" name="message" placeholder="Message"></textarea>
+			<input type="text" required="required" id="name" name="name" placeholder="Nom" required>
+			<input type="email" required="required" id="email" name="email" placeholder="Courriel" required>
+			<textarea cols="30" rows="10" id="message" name="message" placeholder="Message" required ></textarea>
 			<input type="submit" class="btn"  value="Envoyer" id="send">
 		</fieldset>
 	</form>
