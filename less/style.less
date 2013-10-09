@@ -34,8 +34,6 @@
 	background-image: url(../img/sprite.svg);
 	background-repeat: no-repeat;
 	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
-	width: 50px;
-	height: 50px;
 }
 // .sprite(1,3);
 
@@ -73,6 +71,12 @@ body,{
 .container{
 	margin: 0 auto;
 	position: relative;
+}
+.test-sprite{
+	.sprite(0,0);
+	width: 1000px;
+	height: 50px;
+	padding-left: 60px;
 }
 
 // ===========================================================================================================================

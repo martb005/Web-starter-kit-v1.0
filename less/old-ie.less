@@ -1,0 +1,19 @@
+/*
+===========================================================================================================================
+Sprite
+===========================================================================================================================
+*/
+@spriteGrid: 50px;
+
+.sprite(@x, @y) {
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
+}
+
+.test-sprite{
+	.sprite(0,0);
+	width: 1000px;
+	height: 50px;
+	padding-left: 60px;
+}
