@@ -9,6 +9,7 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 - PHP
 - CSS3
 - LESS
+- Responsive nav
 - SVG to PNG fallback for old browsers (lte IE 9)
 - jQuery
 - HTML5 shiv for IE
@@ -20,6 +21,9 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 ## SVG to PNG
 Old browsers such as Internet Explorer 8- does not support SVG files. A few line of javascript are used to create a fallback to replace automatically every SVG files to PNG files. Don't forget to create both images! (See index.php for example)
 
+## Responsive Nav
+Responsive navigation plugin without library dependencies and with fast touch screen support.
+
 ## Hide file extension
 .htaccess file is used to hide .PHP file extension to get clean URL.
 
@@ -27,7 +31,7 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 Simple contact form ready to use. Replace the receiver email address in sendmail.php to get this working. (See index.php for example)
 
 ## Meta
-/inc/meta.php is used to add content to specific pag (Page title and page description).
+config.php is used to add content to specific pag (Page title and page description).
 ```php
 <title><?=$title?></title>
 <meta name="description" content="<?=$description?>" />
