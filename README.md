@@ -22,7 +22,7 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 Old browsers such as Internet Explorer 8- does not support SVG files. A few line of javascript are used to create a fallback to replace automatically every SVG files to PNG files. Don't forget to create both images! (See index.php for example)
 
 ## Responsive Nav
-Responsive navigation plugin without library dependencies and with fast touch screen support.
+Responsive navigation plugin without library dependencies and with fast touch screen support. (http://responsive-nav.com)
 
 ## Hide file extension
 .htaccess file is used to hide .PHP file extension to get clean URL.
