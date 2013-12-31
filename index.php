@@ -18,7 +18,7 @@
 			<h1>Website Starter</h1>
 			
 			<!-- Display current file for degugging -->
-			<p><strong>Current file:</strong> <? echo baseURL(); ?></p>
+			<p><strong>Current file:</strong> <span class="link"><? echo baseURL(); ?></span></p>
 		</div>
 	</section>
 			
@@ -40,8 +40,8 @@
 			<!-- Contact form  example -->
 			<form action="#" method="post" id="form-contact">
 				<fieldset>
-					<input type="text" required="required" id="name" name="name" placeholder="Nom" required>
-					<input type="email" required="required" id="email" name="email" placeholder="Courriel" required>
+					<input type="text" required="required" id="name" name="name" placeholder="Name" required>
+					<input type="email" required="required" id="email" name="email" placeholder="Email" required>
 					<textarea cols="30" rows="10" id="message" name="message" placeholder="Message" required ></textarea>
 					<input type="submit" class="btn"  value="Envoyer" id="send">
 				</fieldset>
