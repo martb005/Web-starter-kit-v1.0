@@ -17,7 +17,7 @@
 		<div class="container">
 			<h1>Website Starter</h1>
 			
-			<!-- Display current file for degugging -->
+			<!-- Display base URL -->
 			<p><strong>Current file:</strong> <span class="link"><? echo baseURL(); ?></span></p>
 		</div>
 	</section>
