@@ -18,8 +18,5 @@
 		<!--[if lte IE 8]>
 		  <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
 		<![endif]-->
-		<!--[if lt IE 9]>
-		  <script type="text/javascript" src="js/html5.js"></script>
-		<![endif]-->
 	</head>
 <body>

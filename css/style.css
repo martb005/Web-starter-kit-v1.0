@@ -145,10 +145,30 @@ section {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-p {
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.8em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
   font-size: 1em;
 }
-body {
+p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+body,
+html {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -157,13 +177,86 @@ body {
   margin: 0 auto;
   position: relative;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: arial, sans-serif;
+  color: #333;
+}
+header {
+  background: tomato;
+  padding: 20px;
+}
+header a {
+  color: #333;
+}
+section {
+  background: #f1f1f1;
+  max-width: 100%;
+  padding: 20px;
+  border-bottom: 1px dashed #666;
+}
+section img {
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  margin-bottom: 20px;
+  min-height: 40px;
+  padding: 10px 20px;
+  border: 0;
+  display: block;
+}
+input[type="submit"] {
+  border: 0;
+  background: tomato;
+  border-radius: 50px;
+  padding: 10px;
+}
 .test-sprite {
   background-image: url(../img/sprite.svg);
   background-repeat: no-repeat;
   background-position: 0px 0px;
-  width: 1000px;
+  width: 100%;
   height: 50px;
-  padding-left: 60px;
+  margin: 10px 0;
+}
+footer {
+  padding: 20px;
+}
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+.nav-collapse.disable-pointer-events {
+  pointer-events: none !important;
+}
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 @media only screen and (min-width: 1281px) {
   .container {
@@ -185,8 +278,26 @@ body {
     width: 620px;
   }
 }
+@media only screen and (min-width: 641px) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .nav-collapse ul li {
+    display: inline-block;
+  }
+}
 @media only screen and (max-width: 640px) {
   .container {
     width: 100%;
+  }
+  .nav-collapse ul li {
+    width: 100%;
+    display: block;
   }
 }
