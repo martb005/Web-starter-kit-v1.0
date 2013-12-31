@@ -31,7 +31,7 @@
 			<img src="img/image.svg" alt="SVG to PNG" width="1000" height="560">
 			<h4>SVG Sprite fallback</h4>
 			<div class="test-sprite"></div>
-			<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder).</p>
+			<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
 		</div>
 	</section>
 			
