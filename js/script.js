@@ -1,14 +1,5 @@
-/*
- * @author Martin Bussières
- * @copyright Martin Bussières
- */
-
 jQuery(function($) {
 
-	// Add Class to HTML tag if lte IE 10
-	if ($.browser.msie){
-		$('html').addClass('ie').addClass('ie'+parseInt($.browser.version,10));
-	}
 	// SVG to PNG
 	$(function() {
 		svgeezy.init();

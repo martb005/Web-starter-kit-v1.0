@@ -7,19 +7,19 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Author Name">
-        <!-- Meta Opengraph -->
-        <meta property="og:title" content="<?=$title?>" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="<? echo baseURL(); ?>" />
-        <meta property="og:image" content="<? echo baseURL(); ?>img/opengraph.png" />
-        <meta property="og:description" content="<?=$description?>" />
+		<!-- Meta Opengraph -->
+		<meta property="og:title" content="<?=$title?>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="<? echo baseURL(); ?>" />
+		<meta property="og:image" content="<? echo baseURL(); ?>img/opengraph.png" />
+		<meta property="og:description" content="<?=$description?>" />
 		<!-- CSS -->
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
-        <!--[if lte IE 8]>
-          <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
-        <![endif]-->
-        <!--[if lt IE 9]>
-          <script type="text/javascript" src="js/html5.js"></script>
-        <![endif]-->
+		<!--[if lte IE 8]>
+		  <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
+		<![endif]-->
+		<!--[if lt IE 9]>
+		  <script type="text/javascript" src="js/html5.js"></script>
+		<![endif]-->
 	</head>
-  <body>
+<body>
