@@ -1,6 +1,13 @@
 		<footer>
 			<div class="container">
-				<p>footer</p>
+				<div class="row-fluid">
+					<div class="span10">
+						<h6>&copy; Company, <?php echo date("Y") ?>. All Rights Reserved.</h6>
+					</div>
+					<div class="span2">
+						<h6><a href="#">Follow Us</a></h6>
+					</div>
+				</div>
 			</div>
 		</footer>
 		<!-- js -->

@@ -24,6 +24,23 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 ## Responsive Nav
 Responsive navigation plugin without library dependencies and with fast touch screen support. http://github.com/viljamis/responsive-nav.js
 
+## Responsive Grid
+Responsive grid layout based on Bootstrap 2.3.2
+```html
+<div class="row-fluid">
+	<div class="span6">column 1</div>
+	<div class="span6">column 2</div>
+</div>
+```
+
+## Responsive Video
+Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.
+```html
+<div class=".embed-container">
+	<iframe src="http://www.yourdomain.abc/yourvideoid"></iframe>
+</div>
+```
+
 ## Hide file extension
 .htaccess file is used to hide .PHP file extension to get clean URL.
 
