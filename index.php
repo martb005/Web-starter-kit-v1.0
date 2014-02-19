@@ -4,16 +4,16 @@
 		<div class="container">
 			<nav class="nav-collapse">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Page</a></li>
-					<li><a href="#">Page</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#documentation">Documentation</a></li>
 					<li><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 
-	<header>
+	<header id="home">
 		<div class="container">
 			<div class="row-fluid">
 				<div class="span6">
@@ -38,7 +38,7 @@
 		</div>
 	</header>
 
-	<section>
+	<section id="features">
 		<div class="container">
 			<div class="row-fluid">
 				<div class="span6">
@@ -75,13 +75,13 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="documentation">
 		<div class="container">
 			<div class="row-fluid">
 				<div class="span12">
-					<h2>Debugging</h2>
+					<h2>Documentation</h2>
 					<h4>Base URL</h4>
-					<p>Use the following code to help you to display the base URL set in config.php.</p>
+					<p>Use to display the base URL set in config.php.</p>
 					<code>
 						&lt;? echo baseURL(); ?&gt;
 					</code>
