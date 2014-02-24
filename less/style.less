@@ -10,9 +10,9 @@
 @import url('normalize.less');
 
 // ===========================================================================================================================
-// Responsive Grid Based on Bootstrap
+// Responsive Grid Based on Bootstrap 3
 // ===========================================================================================================================
-@import url('grid.less');
+@import url('bootstrap.less');
 
 // ===========================================================================================================================
 // Variables
@@ -153,80 +153,6 @@ footer{
 	margin: 0 auto;
 	height: 100px;
 	clear:both;
-}
-
-// ===========================================================================================================================
-// Responsive Nav based on responsive-nav.com
-// ===========================================================================================================================
-.nav-collapse{
-	ul{
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		display: block;
-		list-style: none;
-	}
-}
-.js .nav-collapse{
-	clip: rect(0 0 0 0);
-	max-height: 0;
-	position: absolute;
-	display: block;
-	overflow: hidden;
-	zoom: 1;
-}
-.nav-collapse.opened{
-	max-height: 9999px;
-}
-.nav-collapse.disable-pointer-events{
-	pointer-events: none !important;
-}
-.nav-toggle{
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-@media only screen and (min-width : 768px) {
-	.js .nav-collapse {
-		position: relative;
-	}
-	.js .nav-collapse.closed {
-		max-height: none;
-	}
-	.nav{
-		position: fixed;
-		margin: 0 auto;
-		width: 100%;
-	}
-	.nav-toggle {
-		display: none;
-	}
-	.nav-collapse{
-		ul{
-			li{
-				display: inline-block;
-			}
-		}
-	}
-}
-@media only screen and (max-width : 767px) {
-	.nav{
-		position: fixed;
-		margin: 0 auto;
-		width: 100%;
-	}
-	.nav-collapse{
-		ul{
-			li{
-				width: 100%;
-				display: block;
-			}
-		}
-	}
 }
 
 // ===========================================================================================================================

@@ -19,5 +19,5 @@
 		  <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
 		<![endif]-->
 	</head>
-<body>
+<body data-spy="scroll" data-target=".scrollspy">
 	<div id="wrapper">
