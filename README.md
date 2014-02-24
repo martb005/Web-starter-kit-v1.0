@@ -25,12 +25,28 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 [Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar) are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.
 
 ## Responsive Grid
-Responsive grid layout based on Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar)
+Responsive grid layout based on [Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar)
 ```html
 <div class="row">
 	<div class="col-sm-8">.col-sm-8</div>
 	<div class="col-sm-4">.col-sm-4</div>
 </div>
+```
+## Scrollspy
+The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.
+### Usage via data attributes
+To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll" to the element you want to spy on (most typically this would be the &lt;body&gt;). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap .nav component.
+### Usage via JavaScript
+```html
+<body data-spy="scroll" data-target=".navbar-example">
+  ...
+  <div class="navbar-example">
+    <ul class="nav nav-tabs">
+      ...
+    </ul>
+  </div>
+  ...
+</body>
 ```
 
 ## Responsive Video
