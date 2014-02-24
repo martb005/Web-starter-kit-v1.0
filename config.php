@@ -4,7 +4,7 @@
 
 	switch ($thisFilename) {
 		case "index.php":
-			$title = "Title"; // Add specifique browser page title for homepage
+			$title = "Website Starter Kit"; // Add specifique browser page title for homepage
 			$description = "Description"; // Add specifique page description for homepage
 			break; // Duplicate PHP case to add title or description for other specific page then replace the file name
 		default:
