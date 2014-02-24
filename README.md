@@ -36,7 +36,6 @@ Responsive grid layout based on [Bootstrap 3.0 Navbars](http://getbootstrap.com/
 The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.
 ### Usage via data attributes
 To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll" to the element you want to spy on (most typically this would be the &lt;body&gt;). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap .nav component.
-### Usage via JavaScript
 ```html
 <body data-spy="scroll" data-target=".navbar-example">
   ...
@@ -48,6 +47,13 @@ To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll
   ...
 </body>
 ```
+
+### Usage via JavaScript
+Call the scrollspy via JavaScript:
+```javascript
+$('body').scrollspy({ target: '.navbar-example' })
+```
+
 
 ## Responsive Video
 Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.
