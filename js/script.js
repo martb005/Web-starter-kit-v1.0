@@ -55,4 +55,3 @@ var navigation = responsiveNav(".nav-collapse", { // Selector: The ID of the wra
 	open: function(){}, // Function: Open callback
 	close: function(){} // Function: Close callback
 });
-

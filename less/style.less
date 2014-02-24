@@ -7,7 +7,7 @@
 // ===========================================================================================================================
 // Reset
 // ===========================================================================================================================
-*{margin:0;padding:0;box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}html,body,div,span,object,iframe,p,blockquote,pre,a,abbr,address,code,em,img,strong,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;-webkit-font-smoothing:antialiased}h1,h2,h3,h4,h5,h6{border:0;margin:0;outline:0;padding:0;vertical-align:baseline;-webkit-font-smoothing:antialiased}:focus{outline:0}ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{font-weight:normal;text-align:left}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}img,input,select,option{vertical-align:middle}input,textarea{-webkit-appearance:none;border-radius:0;}.clear:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.clearfix{height:0;clear:both;display:block}strong,.bold{font-weight:bold}.floatright{float:right}.floatleft{float:left}.indent{text-indent:-9999px;line-height:0}article,aside,figure,footer,header,hgroup,nav,section{display:block}
+@import url('normalize.less');
 
 // ===========================================================================================================================
 // Responsive Grid Based on Bootstrap
@@ -115,22 +115,7 @@ html{
 	margin: 0 auto;
 	
 }
-#wrapper{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	width:100%;
-	*width:100%;
-	margin: 0 auto -100px; // Based on footer eight
-}
-footer{
-	position: relative;
-	margin: 0 auto;
-	height: 100px;
-	clear:both;
-}
 .container{
-	margin: 0 auto;
 	position: relative;
 }
 img{
@@ -150,6 +135,24 @@ code,
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+}
+
+// ===========================================================================================================================
+// Sticky footer
+// ===========================================================================================================================
+#wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width:100%;
+	*width:100%;
+	margin: 0 auto -100px; // Footer eight's
+}
+footer{
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	clear:both;
 }
 
 // ===========================================================================================================================
@@ -187,161 +190,6 @@ code,
 	-o-user-select: none;
 	user-select: none;
 }
-
-// ===========================================================================================================================
-// Responsive Video iframe
-// ===========================================================================================================================
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    //padding-bottom: 75%; /* 4/3 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-}
-.embed-container iframe, .embed-container object, .embed-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-// ===========================================================================================================================
-// Custom Theme
-// ===========================================================================================================================
-body{
-	.sans;
-	color: #444;
-}
-ul,
-code{
-	margin-bottom: 1em;
-}
-code{
-	background: #fff;
-	padding: 20px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-	margin-bottom: .5em;
-}
-blockquote,
-p{
-	margin-bottom: 1em;
-}
-a{
-	color: tomato;
-}
-.nav{
-	background: tomato;
-	padding: 20px;
-	z-index: 99999;
-	overflow: hidden;
-	a{
-		color: #fff;
-		font-weight: 700;
-		text-decoration: none;
-		margin-right: 20px;
-	}
-}
-blockquote{
-	.serif;
-	font-style: italic;
-	font-size: 1.5em;
-}
-.nav-spacer{
-	height: 55px;
-}
-header,
-section{
-	border-bottom: 1px dashed #bbb;
-	img{
-		margin-bottom: 30px;
-	}
-}
-hr{
-	height: 1px;
-	border: 0;
-	border-bottom: 1px dashed #bbb;
-	padding-top: 20px;
-	margin-bottom: 20px;
-}
-section{
-	background: #f1f1f1;
-}
-@media only screen and (min-width : 641px) {
-	header,
-	section{
-		padding: 140px 20px 80px 20px;
-	}
-}
-@media only screen and (max-width : 640px) {
-	header,
-	section{
-		padding: 96px 20px 40px 20px;
-	}
-}
-input[type="text"],
-input[type="email"],
-textarea{
-	margin-bottom: 20px;
-	min-height: 40px;
-	padding: 10px 20px;
-	border: 0;
-	display: block;
-}
-.trigger{
-	z-index: 9999;
-	height: 200px;
-	background: blue;
-}
-.test-sprite{
-	.sprite(0,0);
-	width: 100%;
-	height: 50px;
-	margin: 10px 0;
-}
-footer{
-	padding: 20px;
-}
-.btn{
-	background: tomato;
-	background: tomato;
-	border-radius: 50px;
-	padding: 10px 20px;
-}
-a.btn,
-input[type="submit"]{
-	border:none;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 400;
-	text-align: center;
-	&:hover{
-		background: #444;
-		color: #fff;
-	}
-}
-a.btn{
-	font-weight: 700;
-}
-a.btn,
-input,
-textarea,
-footer,
-code,
-li{
-	font-family: "Courier New", Courier, monospace;
-}
-// ===========================================================================================================================
-// Media Queries
-// ===========================================================================================================================
-
 @media only screen and (min-width : 768px) {
 	.js .nav-collapse {
 		position: relative;
@@ -366,9 +214,6 @@ li{
 	}
 }
 @media only screen and (max-width : 767px) {
-	body{
-		font-size: .8em;
-	}
 	.nav{
 		position: fixed;
 		margin: 0 auto;
@@ -382,8 +227,28 @@ li{
 			}
 		}
 	}
-	div.col {
-		float: none;
-		width: 100%;
-	}
 }
+
+// ===========================================================================================================================
+// Responsive Video iframe
+// ===========================================================================================================================
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    //padding-bottom: 75%; /* 4/3 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// ===========================================================================================================================
+// Custom Theme
+// ===========================================================================================================================
+@import url('theme.less');

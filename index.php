@@ -15,8 +15,8 @@
 
 	<header id="home">
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row">
+				<div class="col-sm-6">
 					<h1>Website Starter</h1>
 					<h2>Simple PHP Framework built to create new Website faster.</h2>
 					<ul>
@@ -31,7 +31,7 @@
 						<li>Simple contact form</li>
 					</ul>
 				</div>
-				<div class="span6 text-right">
+				<div class="col-sm-6 text-right">
 					<a class="btn" href="https://github.com/martb005/Website-Starter-Kit" alt="Download Website Starter Kit">Download</a>
 				</div>
 			</div>
@@ -40,8 +40,8 @@
 
 	<section id="features">
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row">
+				<div class="col-sm-6">
 					<h4>LESS</h4>
 					<p><a href="http://lesscss.org/">LESS</a> extends CSS with dynamic behavior such as variables, mixins, operations and functions. A LESS compiler (server-side) or client-side) is needed such as <a href="http://incident57.com/less/">less.app</a> (mac) or <a href="http://lesscss.org/">LESSCSS.org</a> a jQuery plugin.</p>
 					
@@ -54,21 +54,21 @@
 					<h4>Hide file extension</h4>
 					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>
 				</div>
-				<div class="span6">
+				<div class="col-sm-6">
 					<h4>Contact form</h4>
 					<p>Simple contact form ready to use. Replace the receiver email address in sendmail.php to get this working. (See index.php for example)</p>
 			
 					<h4>Meta</h4>
 					<p>config.php is used to add content to specific pag (Page title and page description).</p>
 					<code>
-							&lt;title&gt;&lt;?=$title?&gt;&lt;/title&gt;<br>
-							&lt;meta name=&quot;description&quot; content=&quot;&lt;?=$description?&gt;&quot; /&gt;
+						&lt;title&gt;&lt;?=$title?&gt;&lt;/title&gt;<br>
+						&lt;meta name=&quot;description&quot; content=&quot;&lt;?=$description?&gt;&quot; /&gt;
 					</code>
 			
 					<h4>Sprite grid</h4>
 					<p>Sprite grid handling images faster. Specify sprite class and the position on the grid.</p>
 					<code>
-							.sprite(2,3);
+						.sprite(2,3);
 					</code>
 				</div>
 			</div>
@@ -77,8 +77,8 @@
 
 	<section id="documentation">
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span12">
+			<div class="row">
+				<div class="col-sm-12">
 					<h2>Documentation</h2>
 					<h4>Base URL</h4>
 					<p>Use to display the base URL set in config.php.</p>
@@ -101,11 +101,11 @@
 	<section>
 		<div class="container">
 			<h2>Responsive Grid</h2>
-			<div class="row-fluid">
-				<div class="span5">
+			<div class="row">
+				<div class="col-sm-5">
 					<p>Base on <a href="http://getbootstrap.com/2.3.2/">Bootstrap 2.3.2</a>. Use the "<strong>.row-fluid</strong>" class to create new responsive row. Then specify width of their child using the class "<strong>.span1</strong>, span2, span3... max span12! That represent the maximum of column who can be use in this framework".</p>
 				</div>
-				<div class="span7">
+				<div class="col-sm-7">
 					<code>
 						&lt;div class=&quot;row-fluid&quot;&gt;
 							&lt;div class=&quot;span6&quot;&gt;
@@ -125,18 +125,18 @@
 
 	<section>
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span12">
+			<div class="row">
+				<div class="col-sm-12">
 					<h2>Responsive Video</h2>
 				</div>
 			</div>
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row">
+				<div class="col-sm-6">
 					<div class="embed-container">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/WQPfQvLIseA?list=FL0Y-lCP6lRqyQi_FzHpsWeQ" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="span6">
+				<div class="col-sm-6">
 					<p>Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.</p>
 					<code>
 						&lt;div class=&quot;embed-container&quot;&gt;
@@ -150,16 +150,16 @@
 			
 	<section>
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span12">
+			<div class="row">
+				<div class="col-sm-12">
 					<h2>SVG to PNG</h2>
 				</div>
 			</div>
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row">
+				<div class="col-sm-6">
 					<img src="img/image.svg" alt="SVG to PNG" width="1000" height="560">
 				</div>
-				<div class="span6">
+				<div class="col-sm-6">
 					<h4>Automatic SVG to PNG replacement</h4>
 					<p>All SVG items are replaced by a PNG file in Internet Explorer 8 and less (Both SVG and PNG files are required in images folder).</p>
 					<h4>SVG Sprite fallback</h4>
@@ -172,8 +172,8 @@
 			
 	<section>
 		<div class="container">
-			<div class="row-fluid">
-				<div class="span8">
+			<div class="row">
+				<div class="col-sm-8">
 					<h1>H1 Lorem ipsum dolor sit amet</h1>
 					<h2>H2 Quisque dignissim metus velit</h2>
 					<h3>H3 Maecenas neque sapien</h3>
@@ -192,13 +192,13 @@
 						</ul>
 					</p>
 				</div>
-				<div class="span4">
+				<div class="col-sm-4">
 					<h2>Contact Form</h2>
 					<form action="#" method="post" id="form-contact">
 						<fieldset>
-							<input class="input-large" type="text" required="required" id="name" name="name" placeholder="Name" required>
-							<input class="input-large" type="email" required="required" id="email" name="email" placeholder="Email" required>
-							<textarea class="input-large" cols="30" rows="10" id="message" name="message" placeholder="Message" required ></textarea>
+							<input type="text" required="required" id="name" name="name" placeholder="Name" required>
+							<input type="email" required="required" id="email" name="email" placeholder="Email" required>
+							<textarea cols="30" rows="10" id="message" name="message" placeholder="Message" required ></textarea>
 							<input type="submit" class="btn"  value="Send" id="send">
 						</fieldset>
 					</form>
