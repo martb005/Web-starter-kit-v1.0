@@ -9,11 +9,12 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 - PHP
 - CSS3
 - LESS
-- Responsive nav
+- Responsive nav and grid based on [Bootstrap 3.0 Navbars](http://getbootstrap.com)
 - SVG to PNG fallback for old browsers (lte IE 9)
 - jQuery
 - HTML5 shiv for IE
 - Simple contact form
+- Bootstrap Scrollpsy
 
 ## LESS
 [LESS](http://lesscss.org/) extends CSS with dynamic behavior such as variables, mixins, operations and functions. A LESS compiler (server-side) or client-side) is needed such as [less.app](http://incident57.com/less/) (mac), [javascript](http://lesscss.org/), etc.
