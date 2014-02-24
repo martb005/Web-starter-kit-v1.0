@@ -39,6 +39,9 @@ $(function() {
 		}
 	});
 
+	// Scrollspy
+	$('body').scrollspy({ target: '.navbar-collapse' })
+
 });
 
 // Responsive Menu

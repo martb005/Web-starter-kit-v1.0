@@ -19,5 +19,5 @@
 		  <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
 		<![endif]-->
 	</head>
-<body data-spy="scroll" data-target=".scrollspy">
+<body data-spy="scroll" data-target=".navbar-collapse">
 	<div id="wrapper">
