@@ -33,11 +33,12 @@
 						<li>PHP</li>
 						<li>CSS3</li>
 						<li>LESS</li>
-						<li>Responsive nav</li>
+						<li>Responsive nav and grid based on Twitter Bootstrap 3.0</li>
 						<li>SVG to PNG fallback for old browsers (lte IE 9)</li>
 						<li>jQuery</li>
 						<li>HTML5 shiv for IE</li>
 						<li>Simple contact form</li>
+						<li>Bootstrap Scrollpsy</li>
 					</ul>
 				</div>
 				<div class="col-sm-6 text-right">
@@ -57,28 +58,22 @@
 					<h4>SVG to PNG</h4>
 					<p>Old browsers such as Internet Explorer 8- does not support SVG files. A few line of javascript are used to create a fallback to replace automatically every SVG files to PNG files. Don't forget to create both images! (See index.php for example)</p>
 					
-					<h4>Responsive Nav</h4>
-					<p>Responsive navigation plugin without library dependencies and with fast touch screen support. <a href="http://github.com/viljamis/responsive-nav.js">http://github.com/viljamis/responsive-nav.js</a></p>
-					
-					<h4>Hide file extension</h4>
-					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>
+					<h4>Responsive Navbar</h4>
+					<p><a href="http://getbootstrap.com/components/#navbar">Bootstrap 3.0 Navbars</a> are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.</p>
+
 				</div>
 				<div class="col-sm-6">
 					<h4>Contact form</h4>
 					<p>Simple contact form ready to use. Replace the receiver email address in sendmail.php to get this working. (See index.php for example)</p>
-			
-					<h4>Meta</h4>
-					<p>config.php is used to add content to specific pag (Page title and page description).</p>
-					<code>
-						&lt;title&gt;&lt;?=$title?&gt;&lt;/title&gt;<br>
-						&lt;meta name=&quot;description&quot; content=&quot;&lt;?=$description?&gt;&quot; /&gt;
-					</code>
-			
-					<h4>Sprite grid</h4>
-					<p>Sprite grid handling images faster. Specify sprite class and the position on the grid.</p>
-					<code>
-						.sprite(2,3);
-					</code>
+
+					<h4>Hide file extension</h4>
+					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>		
+
+					<h4>Responsive Grid</h4>
+					<p><a href="http://getbootstrap.com/css/#grid">Bootstrap 3.0 Grid systems</a> are used for creating page layouts through a series of rows and columns that house your content.</p>	
+
+					<h4>Scrollspy</h4>
+					<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
 				</div>
 			</div>
 		</div>
@@ -89,92 +84,161 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h2>Documentation</h2>
+
 					<h4>Base URL</h4>
 					<p>Use to display the base URL set in config.php.</p>
 					<code>
 						&lt;? echo baseURL(); ?&gt;
 					</code>
 					<p><strong>Base URL:</strong> <span class="link"><? echo baseURL(); ?></span></p>
-					<hr>
+
 					<h4>Current file</h4>
 					<p>Use the following code to display the current file.</p>
 					<code>
 						&lt;? echo basename($_SERVER[&#039;PHP_SELF&#039;]); ?&gt;
 					</code>
 					<p><strong>Current file:</strong> <span class="link"><? echo basename($_SERVER['PHP_SELF']); ?></span></p>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section>
-		<div class="container">
-			<h2>Responsive Grid</h2>
-			<div class="row">
-				<div class="col-sm-5">
-					<p>Base on <a href="http://getbootstrap.com/2.3.2/">Bootstrap 2.3.2</a>. Use the "<strong>.row-fluid</strong>" class to create new responsive row. Then specify width of their child using the class "<strong>.span1</strong>, span2, span3... max span12! That represent the maximum of column who can be use in this framework".</p>
-				</div>
-				<div class="col-sm-7">
+					<h4>Meta</h4>
+					<p>config.php is used to add content to specific pag (Page title and page description).</p>
 					<code>
-						&lt;div class=&quot;row-fluid&quot;&gt;
-							&lt;div class=&quot;span6&quot;&gt;
-								column 1
-							&lt;/div&gt;
-							&lt;div class=&quot;span6&quot;&gt;
-								column 2
-							&lt;/div&gt;
-						&lt;/div&gt;
+						&lt;title&gt;&lt;?=$title?&gt;&lt;/title&gt;<br>
+						&lt;meta name=&quot;description&quot; content=&quot;&lt;?=$description?&gt;&quot; /&gt;
+					</code>
+
+					<h4>Sprite grid</h4>
+					<p>Sprite grid handling images faster. Specify sprite class and the position on the grid.</p>
+					<code>
+						.sprite(2,3);
 					</code>
 				</div>
-			</div>
-		</div>
-		
-	</div>
-	</section>
-
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2>Responsive Video</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="embed-container">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/WQPfQvLIseA?list=FL0Y-lCP6lRqyQi_FzHpsWeQ" frameborder="0" allowfullscreen></iframe>
+				
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>Responsive Grid</h4>
+						<p>Based on <a href="http://getbootstrap.com/">Bootstrap 3.0</a>.</p>
+					</div>
+					<div class="col-sm-12">
+						<ul>
+							<li>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.</li>
+							<li>Use rows to create horizontal groups of columns.</li>
+							<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+							<li>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.</li>
+							<li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.</li>
+							<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.</li>
+						</ul>
+					</div>
+					
+					<div class="col-sm-12">
+						<div class="demo">
+							<div class="row">
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+								<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8">.col-sm-8</div>
+								<div class="col-sm-4">.col-sm-4</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">.col-sm-4</div>
+								<div class="col-sm-4">.col-sm-4</div>
+								<div class="col-sm-4">.col-sm-4</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">.col-sm-6</div>
+								<div class="col-sm-6">.col-sm-6</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<code>
+							&lt;div class=&quot;row&quot;&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-8&quot;&gt;.col-sm-8&lt;/div&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+							&lt;/div&gt;<br>
+							&lt;div class=&quot;row&quot;&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+							&lt;/div&gt;<br>
+							&lt;div class=&quot;row&quot;&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
+								&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
+							&lt;/div&gt;<br>
+						</code>
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<p>Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.</p>
-					<code>
-						&lt;div class=&quot;embed-container&quot;&gt;
-							&lt;iframe src=&quot;http://website.abc/yourembedvideoiframe&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-						&lt;/div&gt;
-					</code>
+				
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>Scrollspy</h4>
+						<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
+					</div>
+					<div class="col-sm-12">
+						<h5>Usage: Via data attributes</h5>
+						<p>To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll" to the element you want to spy on (most typically this would be the &lt;body&gt;). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap .nav component.</p>
+					</div>
+					<div class="col-sm-12">
+						<h5>Usage: Via JavaScript</h5>
+						<code>
+							&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.navbar-example&quot;&gt;<br>
+							  &nbsp;&nbsp;...<br>
+							  &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;navbar-example&quot;&gt;<br>
+							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;nav nav-tabs&quot;&gt;<br>
+							  &nbsp;&nbsp;...<br>
+							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+							  &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+							  &nbsp;&nbsp;...<br>
+							&lt;/body&gt;<br>
+						</code>
+					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-			
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2>SVG to PNG</h2>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>Responsive Video</h4>
+					</div>
+					<div class="col-sm-6">
+						<div class="embed-container">
+							<iframe width="560" height="315" src="//www.youtube.com/embed/WQPfQvLIseA?list=FL0Y-lCP6lRqyQi_FzHpsWeQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<p>Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.</p>
+						<code>
+							&lt;div class=&quot;embed-container&quot;&gt;
+								&lt;iframe src=&quot;http://website.abc/yourembedvideoiframe&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+							&lt;/div&gt;
+						</code>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<img src="img/image.svg" alt="SVG to PNG" width="1000" height="560">
+
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>SVG to PNG</h4>
+					</div>
+					<div class="col-sm-6">
+						<img src="img/image.svg" alt="SVG to PNG" width="1000" height="560">
+					</div>
+					<div class="col-sm-6">
+						<h4>Automatic SVG to PNG replacement</h4>
+						<p>All SVG items are replaced by a PNG file in Internet Explorer 8 and less (Both SVG and PNG files are required in images folder).</p>
+						<h4>SVG Sprite fallback</h4>
+						<div class="test-sprite"></div>
+						<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
+					</div>
 				</div>
-				<div class="col-sm-6">
-					<h4>Automatic SVG to PNG replacement</h4>
-					<p>All SVG items are replaced by a PNG file in Internet Explorer 8 and less (Both SVG and PNG files are required in images folder).</p>
-					<h4>SVG Sprite fallback</h4>
-					<div class="test-sprite"></div>
-					<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
-				</div>
+
 			</div>
 		</div>
 	</section>
@@ -215,5 +279,6 @@
 			</div>
 		</div>
 	</section>
+	<section></section>
 
 <? include('footer.php'); ?>
