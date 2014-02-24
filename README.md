@@ -9,7 +9,7 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 - PHP
 - CSS3
 - LESS
-- Responsive nav and grid based on [Bootstrap 3.0 Navbars](http://getbootstrap.com)
+- Responsive nav and grid based on [Bootstrap 3.0](http://getbootstrap.com)
 - SVG to PNG fallback for old browsers (lte IE 9)
 - jQuery
 - HTML5 shiv for IE
@@ -26,7 +26,7 @@ Old browsers such as Internet Explorer 8- does not support SVG files. A few line
 [Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar) are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.
 
 ## Responsive Grid
-Responsive grid layout based on [Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar)
+Responsive grid layout based on [Bootstrap 3.0 Grid](http://getbootstrap.com/components/#navbar)
 ```html
 <div class="row">
 	<div class="col-sm-8">.col-sm-8</div>
