@@ -22,14 +22,14 @@ Website Starter is a simple PHP Framework build to create new Website faster.
 Old browsers such as Internet Explorer 8- does not support SVG files. A few line of javascript are used to create a fallback to replace automatically every SVG files to PNG files. Don't forget to create both images! (See index.php for example)
 
 ## Responsive Nav
-Responsive navigation plugin without library dependencies and with fast touch screen support. http://github.com/viljamis/responsive-nav.js
+[Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar) are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.
 
 ## Responsive Grid
-Responsive grid layout based on Bootstrap 2.3.2
+Responsive grid layout based on Bootstrap 3.0 Navbars](http://getbootstrap.com/components/#navbar)
 ```html
-<div class="row-fluid">
-	<div class="span6">column 1</div>
-	<div class="span6">column 2</div>
+<div class="row">
+	<div class="col-sm-8">.col-sm-8</div>
+	<div class="col-sm-4">.col-sm-4</div>
 </div>
 ```
 
