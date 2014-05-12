@@ -2,8 +2,12 @@ $(document).ready(function(e) {
 
 	// Smoothscrolling
 	$('#nav ul li a').bind('click', function(e) {
+		if ($(this).parent().hasClass('external')) { //add class "external" to <li> to get external link working. ex. <li class="external"><a href="http://website.com">Website</a></li>
+			$(this).attr('target','_blank');
+			return true;
+		}
 		e.preventDefault();
-		$('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);                                                         
+		$('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);                                                       
 	});
 
 

@@ -1,0 +1,136 @@
+/*
+===========================================================================================================================
+Colors
+===========================================================================================================================
+*/
+@red: #e7321f;
+
+/*
+===========================================================================================================================
+Animations & transitions
+===========================================================================================================================
+*/
+.transition{
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+/*
+===========================================================================================================================
+Sprite
+===========================================================================================================================
+*/
+@spriteGrid: 50px;
+
+.sprite(@x, @y) {
+	background-image: url(../img/sprite.svg);
+	background-repeat: no-repeat;
+	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
+}
+
+/*
+===========================================================================================================================
+Fonts
+===========================================================================================================================
+*/
+.sans{
+	font-family: helvetica neue, helvetica, arial, sans-serif;
+
+}
+.serif{
+	font-family: georgia, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	line-height: 1em;
+}
+h1{
+	font-size: 3em;
+
+}
+h2{
+	font-size: 2.2em;
+}
+h3{
+	font-size: 2em;
+}
+h4{
+	font-size: 1.6em;
+}
+h5{
+	font-size: 1.2em;
+}
+h6{
+	font-size: 1em;
+}
+blockquote{
+
+}
+p{
+	font-size: 1em;
+	line-height: 1.4em;
+}
+a{
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	&:hover{
+
+	}
+}
+strong{
+
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+
+/*
+===========================================================================================================================
+Generic
+===========================================================================================================================
+*/
+body,
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+.container{
+	position: relative;
+}
+img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+ul,
+code{
+	display: block;
+}
+code,
+.link{
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}

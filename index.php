@@ -1,4 +1,10 @@
 <? include('header.php'); ?>
+
+	<!--[if lte IE 8]>
+	<div id="ie" style="text-align: center; height: 50px; line-height: 50px;">
+		Ce site n'est pas optimis&eacute; pour Internet Explorer 8 et moins, veuillez faire une <a href="http://www.microsoft.com/internetexplorer">mise &agrave; jour</a> ou t&eacute;l&eacute;chargez <a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a> ou <a href="http://www.google.com/chrome">Google Chrome</a>
+	</div>
+	<![endif]-->
 	
 	<nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	 	<div class="container">
@@ -16,7 +22,7 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#features">Features</a></li>
 					<li><a href="#documentation">Documentation</a></li>
-					<li><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
+					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 				</ul>
 			</div>
 	 	</div>

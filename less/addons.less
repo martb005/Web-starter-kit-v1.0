@@ -1,0 +1,42 @@
+// Fix for features or plugins instead of loading more stylesheets (ex. Fancybox, Sticky footer...)
+
+/*
+===========================================================================================================================
+Sticky footer
+===========================================================================================================================
+*/
+#wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width:100%;
+	*width:100%;
+	margin: 0 auto -100px; // Footer height's
+}
+footer{
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	clear:both;
+}
+
+/*
+===========================================================================================================================
+Responsive video
+===========================================================================================================================
+*/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    //padding-bottom: 75%; /* 4/3 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
