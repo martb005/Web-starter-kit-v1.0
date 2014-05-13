@@ -34,10 +34,10 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
 					<h1>Trousse de départ <br class="hidden-sm">d’un site Web</h1>
-					<h2>Un framework simple basé sur Bootstrap&nbsp;3.0 pour économiser du temps lors de la création d’un site Web</h2>
+					<h2>Un simple framework basé sur Bootstrap&nbsp;3.0 pour économiser du temps lors de la création d’un site Web</h2>
 				</div>
 				<div class="col-xs-12 col-md-4 text-right">
-					<a class="btn" href="https://github.com/martb005/Website-Starter-Kit" alt="Download Website Starter Kit">Download</a>
+					<a class="btn" href="https://github.com/martb005/Website-Starter-Kit" alt="Download Website Starter Kit">Télécharger</a>
 				</div>
 			</div>
 		</div>
