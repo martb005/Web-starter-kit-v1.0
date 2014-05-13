@@ -6084,6 +6084,13 @@ code,
 }
 /*
 ===========================================================================================================================
+Boostrap Media Queries
+===========================================================================================================================
+*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/*
+===========================================================================================================================
 Add-ons
 ===========================================================================================================================
 */
@@ -6094,14 +6101,12 @@ Sticky footer
 */
 #wrapper {
   min-height: 100%;
-  height: auto !important;
   height: 100%;
   width: 100%;
   *width: 100%;
   margin: 0 auto -100px;
 }
 footer {
-  position: relative;
   margin: 0 auto;
   height: 100px;
   clear: both;
@@ -6558,7 +6563,15 @@ a {
   color: tomato;
 }
 #home {
-  background: #fff;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  background: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
 }
 footer {
   background: #fff;
@@ -6711,7 +6724,7 @@ Navbar
   background-color: #e7e7e7;
   color: #555555;
 }
-@media (max-width: 767px) {
+@media (767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #333;
   }
@@ -6741,17 +6754,12 @@ Navbar
 }
 /*
 ===========================================================================================================================
-Magnific pop
+Image gallery / Magnific popup
 ===========================================================================================================================
 */
 .mfp-bg {
   background: tomato;
 }
-/*
-===========================================================================================================================
-Image gallery
-===========================================================================================================================
-*/
 .thumbnail {
   border: 0;
   padding: 10px;
@@ -6813,4 +6821,21 @@ Image gallery
   color: #fff;
   font-size: 12px;
   line-height: 18px;
+}
+/*
+===========================================================================================================================
+Media Queries
+===========================================================================================================================
+*/
+@media (min-width: 1200px) {
+  #home {
+    height: 100%;
+  }
+  #home .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -585px;
+    margin-top: -200px;
+  }
 }

@@ -25,7 +25,15 @@ a{
 	color: tomato;
 }
 #home{
-	background: #fff;
+	position: relative;
+	width:100%;
+	min-height: 350px;
+    background: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
 }
 footer{
 	background: #fff;
@@ -175,7 +183,7 @@ Navbar
 	background-color: #e7e7e7;
 	color: #555555;
 }
-@media (max-width: 767px) {
+@media (@screen-xs-max) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: #333;
 	}
@@ -205,17 +213,12 @@ Navbar
 }
 /*
 ===========================================================================================================================
-Magnific pop
+Image gallery / Magnific popup
 ===========================================================================================================================
 */
 .mfp-bg{
 	background: tomato;
 }
-/*
-===========================================================================================================================
-Image gallery
-===========================================================================================================================
-*/
 .thumbnail{
 	border: 0;
 	padding: 10px;
@@ -271,4 +274,34 @@ Image gallery
 	color: #fff;
 	font-size: 12px;
 	line-height: 18px;
+}
+/*
+===========================================================================================================================
+Media Queries
+===========================================================================================================================
+*/
+
+@media (min-width: @screen-sm-min) {
+
+}
+@media (min-width: @screen-md-min) {
+
+}
+@media (min-width: @screen-lg-min) {
+	#home{
+		height: 100%;
+		.container{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -585px;
+			margin-top: -200px;
+		}
+	}
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
 }

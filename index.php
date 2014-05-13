@@ -35,19 +35,6 @@
 				<div class="col-sm-6">
 					<h1>Website Starter</h1>
 					<h2>Simple PHP Framework built to create new Website faster.</h2>
-					<ul>
-						<li>HTML5</li>
-						<li>PHP</li>
-						<li>CSS3</li>
-						<li>LESS</li>
-						<li>Responsive nav and grid based on Twitter Bootstrap 3.0</li>
-						<li>SVG to PNG fallback for old browsers (lte IE 9)</li>
-						<li>jQuery</li>
-						<li>HTML5 shiv for IE</li>
-						<li>Simple contact form</li>
-						<li>Bootstrap Scrollpsy</li>
-						<li>Magnific Popup as ligthview for image gallery</li>
-					</ul>
 				</div>
 				<div class="col-sm-6 text-right">
 					<a class="btn" href="https://github.com/martb005/Website-Starter-Kit" alt="Download Website Starter Kit">Download</a>
@@ -59,6 +46,8 @@
 	<section id="features">
 		<div class="container">
 			<div class="row">
+				<div class="col-xs-12">
+				</div>
 				<div class="col-sm-6">
 					<h4>LESS</h4>
 					<p><a href="http://lesscss.org/">LESS</a> extends CSS with dynamic behavior such as variables, mixins, operations and functions. A LESS compiler (server-side) or client-side) is needed such as <a href="http://incident57.com/less/">less.app</a> (mac) or <a href="http://lesscss.org/">LESSCSS.org</a> a jQuery plugin.</p>
@@ -315,6 +304,5 @@
 			</div>
 		</div>
 	</section>
-	<section></section>
 
 <? include('footer.php'); ?>
