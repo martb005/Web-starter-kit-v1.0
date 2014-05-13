@@ -15,14 +15,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Brand</a>
+				<a class="navbar-brand" href="#home">Logo</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#features">Features</a></li>
+					<li><a href="#features">Caractéristiques</a></li>
 					<li><a href="#documentation">Documentation</a></li>
-					<li><a href="#gallery">Gallery demo</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Télécharger</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 				</ul>
 			</div>
@@ -32,11 +32,11 @@
 	<header id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
-					<h1>Website Starter</h1>
-					<h2>Simple PHP Framework built to create new Website faster.</h2>
+				<div class="col-xs-12 col-md-8">
+					<h1>Trousse de départ <br class="hidden-sm">d’un site Web</h1>
+					<h2>Un framework simple basé sur Bootstrap&nbsp;3.0 pour économiser du temps lors de la création d’un site Web</h2>
 				</div>
-				<div class="col-sm-6 text-right">
+				<div class="col-xs-12 col-md-4 text-right">
 					<a class="btn" href="https://github.com/martb005/Website-Starter-Kit" alt="Download Website Starter Kit">Download</a>
 				</div>
 			</div>
@@ -90,6 +90,7 @@
 						&lt;? echo baseURL(); ?&gt;
 					</code>
 					<p><strong>Base URL:</strong> <span class="link"><? echo baseURL(); ?></span></p>
+					<hr>
 
 					<h4>Current file</h4>
 					<p>Use the following code to display the current file.</p>
@@ -97,6 +98,7 @@
 						&lt;? echo basename($_SERVER[&#039;PHP_SELF&#039;]); ?&gt;
 					</code>
 					<p><strong>Current file:</strong> <span class="link"><? echo basename($_SERVER['PHP_SELF']); ?></span></p>
+					<hr>
 
 					<h4>Meta</h4>
 					<p>config.php is used to add content to specific pag (Page title and page description).</p>
@@ -104,19 +106,22 @@
 						&lt;title&gt;&lt;?=$title?&gt;&lt;/title&gt;<br>
 						&lt;meta name=&quot;description&quot; content=&quot;&lt;?=$description?&gt;&quot; /&gt;
 					</code>
+					<hr>
 
 					<h4>Sprite grid</h4>
 					<p>Sprite grid handling images faster. Specify sprite class and the position on the grid.</p>
 					<code>
 						.sprite(2,3);
 					</code>
+					<hr>
 
-					<h4>Responsive Grid</h4>
-						<p>Based on <a href="http://getbootstrap.com/">Bootstrap 3.0</a>.</p>
+					
 				</div>
 				
 				<div class="col-sm-12">
 					<div class="demo">
+						<h4>Responsive Grid</h4>
+					<p>Based on <a href="http://getbootstrap.com/">Bootstrap 3.0</a>.</p>
 						<div class="row">
 							<div class="col-sm-1">.col-sm-1</div>
 							<div class="col-sm-1">.col-sm-1</div>
@@ -160,6 +165,7 @@
 							&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
 						&lt;/div&gt;<br>
 					</code>
+					<hr>
 				</div>
 				
 				<div class="col-sm-12">
@@ -179,6 +185,7 @@
 						  &nbsp;&nbsp;...<br>
 						&lt;/body&gt;<br>
 					</code>
+					<hr>
 				</div>
 
 				<div class="col-sm-12">
@@ -197,6 +204,8 @@
 						&lt;/div&gt;
 					</code>
 				</div>
+				<div class="clearfix"></div>
+				<hr>
 
 				<div class="col-sm-12">
 					<h4>SVG to PNG</h4>
@@ -213,6 +222,7 @@
 					<div class="test-sprite"></div>
 					<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
 				</div>
+				<div class="clearfix"></div>
 
 			</div>
 		</div>
@@ -222,7 +232,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h2>Image gallery &amp; Retina</h2>
+					<h2>Galerie d’images</h2>
 					<ul class="image-gallery">
 						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-01.svg" title="Lorem ipsum dolor sit amet"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
 						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>

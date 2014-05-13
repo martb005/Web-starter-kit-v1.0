@@ -6001,7 +6001,7 @@ Fonts
   font-family: helvetica neue, helvetica, arial, sans-serif;
 }
 .serif {
-  font-family: georgia, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 h1,
 h2,
@@ -6573,11 +6573,14 @@ a {
   background-position: 50% 50%;
   color: #fff;
 }
+#home h2 {
+  font-family: "Courier New", Courier, monospace;
+}
 footer {
   background: #fff;
 }
 blockquote {
-  font-family: georgia, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-style: italic;
   font-size: 1.5em;
 }
@@ -6632,7 +6635,7 @@ textarea {
   margin: 10px 0;
 }
 footer {
-  padding: 20px;
+  padding: 37px;
 }
 .btn {
   background: tomato;
