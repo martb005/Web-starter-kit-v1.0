@@ -46,6 +46,7 @@
 						<li>HTML5 shiv for IE</li>
 						<li>Simple contact form</li>
 						<li>Bootstrap Scrollpsy</li>
+						<li>Magnific Popup as ligthview for image gallery</li>
 					</ul>
 				</div>
 				<div class="col-sm-6 text-right">
@@ -67,12 +68,11 @@
 					
 					<h4>Responsive Navbar</h4>
 					<p><a href="http://getbootstrap.com/components/#navbar">Bootstrap 3.0 Navbars</a> are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.</p>
-
-				</div>
-				<div class="col-sm-6">
+					
 					<h4>Contact form</h4>
 					<p>Simple contact form ready to use. Replace the receiver email address in sendmail.php to get this working. (See index.php for example)</p>
-
+				</div>
+				<div class="col-sm-6">
 					<h4>Hide file extension</h4>
 					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>		
 
@@ -81,6 +81,9 @@
 
 					<h4>Scrollspy</h4>
 					<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
+
+					<h4>Magnific Popup</h4>
+					<p>Fast, light and responsive lightbox plugin, for jQuery and Zepto.js.</p>
 				</div>
 			</div>
 		</div>
