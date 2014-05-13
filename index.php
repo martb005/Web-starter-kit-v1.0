@@ -110,134 +110,108 @@
 					<code>
 						.sprite(2,3);
 					</code>
-				</div>
-				
-				<div class="row">
-					<div class="col-sm-12">
-						<h4>Responsive Grid</h4>
+
+					<h4>Responsive Grid</h4>
 						<p>Based on <a href="http://getbootstrap.com/">Bootstrap 3.0</a>.</p>
-					</div>
-					<div class="col-sm-12">
-						<ul>
-							<li>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.</li>
-							<li>Use rows to create horizontal groups of columns.</li>
-							<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
-							<li>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.</li>
-							<li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.</li>
-							<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.</li>
-						</ul>
-					</div>
-					
-					<div class="col-sm-12">
-						<div class="demo">
-							<div class="row">
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-								<div class="col-sm-1">.col-sm-1</div>
-							<div class="col-sm-1">.col-sm-1</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-8">.col-sm-8</div>
-								<div class="col-sm-4">.col-sm-4</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-4">.col-sm-4</div>
-								<div class="col-sm-4">.col-sm-4</div>
-								<div class="col-sm-4">.col-sm-4</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6">.col-sm-6</div>
-								<div class="col-sm-6">.col-sm-6</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<code>
-							&lt;div class=&quot;row&quot;&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-8&quot;&gt;.col-sm-8&lt;/div&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
-							&lt;/div&gt;<br>
-							&lt;div class=&quot;row&quot;&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
-							&lt;/div&gt;<br>
-							&lt;div class=&quot;row&quot;&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
-								&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
-							&lt;/div&gt;<br>
-						</code>
-					</div>
 				</div>
 				
-				<div class="row">
-					<div class="col-sm-12">
-						<h4>Scrollspy</h4>
-						<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
-					</div>
-					<div class="col-sm-12">
-						<h5>Usage: Via data attributes</h5>
-						<p>To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll" to the element you want to spy on (most typically this would be the &lt;body&gt;). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap .nav component.</p>
-					</div>
-					<div class="col-sm-12">
-						<h5>Usage: Via JavaScript</h5>
-						<code>
-							&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.navbar-example&quot;&gt;<br>
-							  &nbsp;&nbsp;...<br>
-							  &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;navbar-example&quot;&gt;<br>
-							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;nav nav-tabs&quot;&gt;<br>
-							  &nbsp;&nbsp;...<br>
-							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
-							  &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
-							  &nbsp;&nbsp;...<br>
-							&lt;/body&gt;<br>
-						</code>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-12">
-						<h4>Responsive Video</h4>
-					</div>
-					<div class="col-sm-6">
-						<div class="embed-container">
-							<iframe width="560" height="315" src="//www.youtube.com/embed/WQPfQvLIseA?list=FL0Y-lCP6lRqyQi_FzHpsWeQ" frameborder="0" allowfullscreen></iframe>
+				<div class="col-sm-12">
+					<div class="demo">
+						<div class="row">
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+							<div class="col-sm-1">.col-sm-1</div>
+						<div class="col-sm-1">.col-sm-1</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-8">.col-sm-8</div>
+							<div class="col-sm-4">.col-sm-4</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">.col-sm-4</div>
+							<div class="col-sm-4">.col-sm-4</div>
+							<div class="col-sm-4">.col-sm-4</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">.col-sm-6</div>
+							<div class="col-sm-6">.col-sm-6</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<p>Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.</p>
-						<code>
-							&lt;div class=&quot;embed-container&quot;&gt;
-								&lt;iframe src=&quot;http://website.abc/yourembedvideoiframe&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-							&lt;/div&gt;
-						</code>
-					</div>
+					<code>
+						&lt;div class=&quot;row&quot;&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-8&quot;&gt;.col-sm-8&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+						&lt;/div&gt;<br>
+						&lt;div class=&quot;row&quot;&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-4&quot;&gt;.col-sm-4&lt;/div&gt;<br>
+						&lt;/div&gt;<br>
+						&lt;div class=&quot;row&quot;&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;div class=&quot;col-sm-6&quot;&gt;.col-sm-6&lt;/div&gt;<br>
+						&lt;/div&gt;<br>
+					</code>
+				</div>
+				
+				<div class="col-sm-12">
+					<h4>Scrollspy</h4>
+					<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
+					<h5>Usage: Via data attributes</h5>
+					<p>To easily add scrollspy behavior to your topbar navigation, add data-spy="scroll" to the element you want to spy on (most typically this would be the &lt;body&gt;). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap .nav component.</p>
+					<h5>Usage: Via JavaScript</h5>
+					<code>
+						&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.navbar-example&quot;&gt;<br>
+						  &nbsp;&nbsp;...<br>
+						  &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;navbar-example&quot;&gt;<br>
+						  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;nav nav-tabs&quot;&gt;<br>
+						  &nbsp;&nbsp;...<br>
+						  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+						  &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+						  &nbsp;&nbsp;...<br>
+						&lt;/body&gt;<br>
+					</code>
 				</div>
 
-				<div class="row">
-					<div class="col-sm-12">
-						<h4>SVG to PNG</h4>
+				<div class="col-sm-12">
+					<h4>Responsive Video</h4>
+				</div>
+				<div class="col-sm-6">
+					<div class="embed-container">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/WQPfQvLIseA?list=FL0Y-lCP6lRqyQi_FzHpsWeQ" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class="col-sm-6">
-						<a href="img/image-01.svg" class="image-lightview">
-							<img src="img/image-01.svg" alt="SVG to PNG" width="1000" height="560">
-						</a>
-					</div>
-					<div class="col-sm-6">
-						<h4>Automatic SVG to PNG replacement</h4>
-						<p>All SVG items are replaced by a PNG file in Internet Explorer 8 and less (Both SVG and PNG files are required in images folder).</p>
-						<h4>SVG Sprite fallback</h4>
-						<div class="test-sprite"></div>
-						<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
-					</div>
+				</div>
+				<div class="col-sm-6">
+					<p>Wrap the iframe tags with a div and add it ".embed-container" CSS class as the exemple below.</p>
+					<code>
+						&lt;div class=&quot;embed-container&quot;&gt;
+							&lt;iframe src=&quot;http://website.abc/yourembedvideoiframe&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="col-sm-12">
+					<h4>SVG to PNG</h4>
+				</div>
+				<div class="col-sm-6">
+					<a href="img/image-01.svg" class="image-lightview">
+						<img src="img/image-01.svg" alt="SVG to PNG" width="1000" height="560">
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<h4>Automatic SVG to PNG replacement</h4>
+					<p>All SVG items are replaced by a PNG file in Internet Explorer 8 and less (Both SVG and PNG files are required in images folder).</p>
+					<h4>SVG Sprite fallback</h4>
+					<div class="test-sprite"></div>
+					<p>This icon is a part of a sprite. Set fallback for IE 8 and older browsers in old-ie.less to replace SVG sprite to PNG (Both SVG and PNG files are required in images folder)</p>
 				</div>
 
 			</div>
