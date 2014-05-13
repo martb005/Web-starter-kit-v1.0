@@ -76,8 +76,4 @@ config.php is used to add content to specific pag (Page title and page descripti
 ```php
 <title><?=$title?></title>
 <meta name="description" content="<?=$description?>" />
-```
-
-## Sprite grid
-Sprite grid handling images faster.
 
