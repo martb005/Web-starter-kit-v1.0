@@ -48,4 +48,34 @@ $(function() {
 	// Scrollspy
 	$('body').scrollspy({ target: '.navbar-collapse' })
 
+	// Replace rel="" to data-rel="" to keep HTML validation for Ligthbox
+	$('a[data-rel]').each(function() {
+	    $(this).attr('rel', $(this).data('rel'));
+	});
+
+	// Magnific popup
+	$('.image-lightview').magnificPopup({ 
+		type: 'image',
+		closeMarkup: '<span class="mfp-close"></span>'
+	});
+	$('.image-gallery').each(function() { // the containers for all your galleries
+		$(this).magnificPopup({
+			delegate: 'a', // the selector for gallery item
+			type: 'image',
+			closeMarkup: '<span class="mfp-close"></span>',
+			removalDelay: 300,
+			mainClass: 'mfp-fade',
+			gallery: {
+				enabled: true,
+				preload: [1,3], // Preloads nearby items. It accepts array with two integers, first one - is a number of items to preload before the current, second one - the number of images to preload after the current.
+				tCounter: '%curr% of %total%',
+				arrowMarkup: '<div class="mfp-arrow mfp-arrow-%dir%"></div>' // markup of an arrow button
+			},
+			image: {
+				titleSrc: 'title',
+				tError: '<a href="%url%">The image</a> could not be loaded.'
+			}
+		});
+	});
+
 });

@@ -16,7 +16,8 @@
 		<!-- CSS -->
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
 		<!--[if lte IE 8]>
-		  <link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
+			<script type="text/javascript" src="js/html5.js"></script>
+			<link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
 		<![endif]-->
 	</head>
 <body data-spy="scroll" data-target=".navbar-collapse">

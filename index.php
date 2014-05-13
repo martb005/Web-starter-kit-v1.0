@@ -22,6 +22,7 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#features">Features</a></li>
 					<li><a href="#documentation">Documentation</a></li>
+					<li><a href="#gallery">Gallery demo</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 				</ul>
 			</div>
@@ -234,7 +235,9 @@
 						<h4>SVG to PNG</h4>
 					</div>
 					<div class="col-sm-6">
-						<img src="img/image.svg" alt="SVG to PNG" width="1000" height="560">
+						<a href="img/image-01.svg" class="image-lightview">
+							<img src="img/image-01.svg" alt="SVG to PNG" width="1000" height="560">
+						</a>
 					</div>
 					<div class="col-sm-6">
 						<h4>Automatic SVG to PNG replacement</h4>
@@ -245,6 +248,30 @@
 					</div>
 				</div>
 
+			</div>
+		</div>
+	</section>
+
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h2>Image gallery &amp; Retina</h2>
+					<ul class="image-gallery">
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-01.svg" title="Lorem ipsum dolor sit amet"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-01.svg"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail"><a href="img/image-01.svg"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs thumbnail"><a href="img/image-01.svg"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs hidden-sm thumbnail"><a href="img/image-01.svg"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs hidden-sm hidden-md thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs hidden-sm hidden-md thumbnail"><a href="img/image-01.svg"><img src="img/image-01.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-xs hidden-sm hidden-md thumbnail"><a href="img/image-02.svg"><img src="img/image-02.svg" alt="SVG to PNG" width="250" height="140"></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
