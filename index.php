@@ -1,4 +1,4 @@
-<? include('header.php'); ?>
+<? include('head.php'); ?>
 
 	<!--[if lte IE 8]>
 	<div id="ie" style="text-align: center; height: 50px; line-height: 50px;">
@@ -289,4 +289,17 @@
 		</div>
 	</section>
 
-<? include('footer.php'); ?>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-sm-10">
+					<h6>&copy; Company, <?php echo date("Y") ?>. All Rights Reserved.</h6>
+				</div>
+				<div class="col-xs-4 col-sm-2 text-right">
+					<h6><a href="#">Follow Us</a></h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<? include('foot.php'); ?>
