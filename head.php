@@ -15,9 +15,9 @@
 		<meta property="og:description" content="<?=$description?>" />
 		<!-- CSS -->
 		<link type="text/css" rel="stylesheet" href="css/style.css" media="all">
-		<!--[if lte IE 8]>
-			<script type="text/javascript" src="js/html5shiv.js"></script>
-			<script type="text/javascript" src="js/respond.js"></script>
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script>
+			<script src="js/respond.min.js"></script>
 			<link type="text/css" rel="stylesheet" href="css/old-ie.css" media="all">
 		<![endif]-->
 	</head>
