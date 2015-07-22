@@ -19,8 +19,8 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#features">Caractéristiques</a></li>
-					<li><a href="#documentation">Documentation</a></li>
+					<li><a href="#features">Specs</a></li>
+					<li><a href="#documentation">Docs</a></li>
 					<li><a href="#gallery">Galerie</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 					<li><a href="#contact">Text style & Contact</a></li>
