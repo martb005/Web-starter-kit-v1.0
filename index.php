@@ -5,7 +5,7 @@
 		Ce site n'est pas optimis&eacute; pour Internet Explorer 8 et moins, veuillez faire une <a href="http://www.microsoft.com/internetexplorer">mise &agrave; jour</a> ou t&eacute;l&eacute;chargez <a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a> ou <a href="http://www.google.com/chrome">Google Chrome</a>
 	</div>
 	<![endif]-->
-	
+
 	<nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	 	<div class="container">
 	 		<div class="navbar-header">
@@ -24,6 +24,7 @@
 					<li><a href="#gallery">Galerie</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Télécharger</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
+					<li><a href="#contact">Text style & Contact</a></li>
 				</ul>
 			</div>
 	 	</div>
@@ -51,22 +52,22 @@
 				<div class="col-sm-6">
 					<h4>LESS</h4>
 					<p><a href="http://lesscss.org/">LESS</a> extends CSS with dynamic behavior such as variables, mixins, operations and functions. A LESS compiler (server-side) or client-side) is needed such as <a href="http://incident57.com/less/">less.app</a> (mac) or <a href="http://lesscss.org/">LESSCSS.org</a> a jQuery plugin.</p>
-					
+
 					<h4>SVG to PNG</h4>
 					<p>Old browsers such as Internet Explorer 8- does not support SVG files. A few line of javascript are used to create a fallback to replace automatically every SVG files to PNG files. Don't forget to create both images! (See index.php for example)</p>
-					
+
 					<h4>Responsive Navbar</h4>
 					<p><a href="http://getbootstrap.com/components/#navbar">Bootstrap 3.0 Navbars</a> are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.</p>
-					
+
 					<h4>Contact form</h4>
 					<p>Simple contact form ready to use. Replace the receiver email address in sendmail.php to get this working. (See index.php for example)</p>
 				</div>
 				<div class="col-sm-6">
 					<h4>Hide file extension</h4>
-					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>		
+					<p>.htaccess file is used to hide .PHP file extension to get clean URL.</p>
 
 					<h4>Responsive Grid</h4>
-					<p><a href="http://getbootstrap.com/css/#grid">Bootstrap 3.0 Grid systems</a> are used for creating page layouts through a series of rows and columns that house your content.</p>	
+					<p><a href="http://getbootstrap.com/css/#grid">Bootstrap 3.0 Grid systems</a> are used for creating page layouts through a series of rows and columns that house your content.</p>
 
 					<h4>Scrollspy</h4>
 					<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
@@ -115,9 +116,9 @@
 					</code>
 					<hr>
 
-					
+
 				</div>
-				
+
 				<div class="col-sm-12">
 					<div class="demo">
 						<h4>Responsive Grid</h4>
@@ -167,7 +168,7 @@
 					</code>
 					<hr>
 				</div>
-				
+
 				<div class="col-sm-12">
 					<h4>Scrollspy</h4>
 					<p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.</p>
@@ -251,8 +252,8 @@
 			</div>
 		</div>
 	</section>
-			
-	<section>
+
+	<section id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
