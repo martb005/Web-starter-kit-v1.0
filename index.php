@@ -22,7 +22,6 @@
 					<li><a href="#features">Caractéristiques</a></li>
 					<li><a href="#documentation">Documentation</a></li>
 					<li><a href="#gallery">Galerie</a></li>
-					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Télécharger</a></li>
 					<li class="external"><a href="https://github.com/martb005/Website-Starter-Kit">Github</a></li>
 					<li><a href="#contact">Text style & Contact</a></li>
 				</ul>
