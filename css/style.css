@@ -6608,7 +6608,7 @@ hr {
 @media only screen and (max-width: 767px) {
   header,
   section {
-    padding: 40px 20px;
+    padding: 70px 20px 40px 20px;
   }
 }
 input[type="text"],
